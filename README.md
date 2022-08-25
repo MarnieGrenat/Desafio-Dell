@@ -96,7 +96,7 @@ __Pseudocódigo:__
 ```
 STRING ocupacao[45(+1)] => X,O,O,X..O
 INT assentos[45(+1)] => 1,2,3,4..,46
-for (int i(=0)  < (array.length)/4 i++)#printar 4x na mesma coluna, portanto dividir lenght por 4{
+for (int i(=0)  < (array.length)/2 i++)#printar 4x na mesma coluna, portanto dividir lenght por 4{
  print(ocupacao[i])
  i++
  print(ocupacao[i])
