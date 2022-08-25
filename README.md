@@ -1,6 +1,10 @@
 # Desafio-Dell
 
-Desafio proposto pelo IT Academy 17 (programa de estágio da Dell)
+Desafio proposto pelo IT Academy 17 (Programa de estágio da Dell).
+
+*Author:* Gabriela Dellamora Paim
+
+*Version:* V.1 - 2022.08.24
 ## Etapa 2 - Apresentação
  
 [OneDrive](https://brpucrs-my.sharepoint.com/:f:/g/personal/g_paim02_edu_pucrs_br/EvuyxIH-ly9IjLM1bjcByXUBFvwiOyjbFMyRe7kFtIyFLw?e=8YpW97)
@@ -53,8 +57,11 @@ Permitir que usuário saia do programa/finalize o programa.
 1. Sugere-se o desenvolvimento de um programa na linguagem e na interface de sua preferência, podendo ser gráfica ou textual/console, com um menu com as opções enumeradas nos requisitos;
 2. Deve-se escrever o código que realiza as funções requeridas e armazena os dados lidos em memória (do jeito que quiser);
 3. Não é necessário gravar dados em nenhum formato, nem usar sistemas de banco de dados;
-4. O programa deverá lidar com os dados em nenhum formato, nem usar sistemas de banco de dados;
-5. O programa **deverá lidar com dados de entrada inválidos** e informar uma mensagem adequada caso ocorram;
-6. Para facilitar, não é necessário lidar com acentuação de palavras;
-7. Na escrita do relatório, **apresente comentários sobre como você realizou os testes e a autoavaliação**.
+4. O programa **deverá lidar com dados de entrada inválidos** e informar uma mensagem adequada caso ocorram;
+5. Para facilitar, não é necessário lidar com acentuação de palavras;
+6. Na escrita do relatório, **apresente comentários sobre como você realizou os testes e a autoavaliação**.
 
+#### Observações da programadora:
+O objetivo atual é construir uma lógica para inserção do código para um site e um aplicativo. A principio, a decisão inicial será fazer o código das atividades do projeto em *Python3*. Caso haja tempo para a HUD do projeto, tem-se com objetivo o criar com *JavaScript*.
+Anotações:
+Aprofundar programação orientada a objetos.
