@@ -92,29 +92,4 @@ Todas variáveis serão inseridas neste código. O objetivo da apresentação do
 O programa deve OBRIGATORIAMENTE apresentar 30% dos assentos já ocupados, sendo metade desses com destino à Florianópolis e a outra metade para Criciúma.
 A primeira versão do programa selecionará os assentos ocupados de forma fixa, para evitar desperdício de tempo em assets detalhistas.
 
-__Pseudocódigo:__
-```
-STRING ocupacao[45(+1)] => X,O,O,X..O
-INT assentos[45(+1)] => 1,2,3,4..,46
-for (int i(=0)  < (array.length)/2 i++)#printar 4x na mesma coluna, portanto dividir lenght por 4{
- print(ocupacao[i])
- i++
- print(ocupacao[i])
-  if ( i%2 != 0){
-  print("|##|")
-  }
-}
-print(/n)  
-for (int i(=0)  < (array.length)/4 i++)#printar 4x na mesma coluna, portanto dividir lenght por 4{
- print(ocupacao[i])
- i++
- print(ocupacao[i])
-  if ( i%2 != 0){
-  print("|##|")
-  }
-}
-
-#TA ERRADO! PRECISO IMPRIMIR 2 2 x 2 2 // 1 1 x 1 1 E TA IMPRIMINDO 1 1 x 1 1 // 1 1 x 1 1 ....(46x) 2 2 x 2 2 // 2 2 x 2 2...(46x)
- #aqui estou imprimindo o onibus, para visualização do usuário.
- #Criar um método para essa impressão e importar ele para main
- ```
+![Primeira execução do código. Apresentação do ônibus para o usuário](https://user-images.githubusercontent.com/92589087/187013153-30a9bb56-bc5b-41c3-8605-083893a8d717.png)
