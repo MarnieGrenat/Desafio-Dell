@@ -82,7 +82,7 @@ Aprender a criar projetos em python.
 
 
 ## *Main*
-Linguagem: Python3
+Linguagem: Java
 
 Na *main*, vou fazer uso dos métodos criados para cada uma das funcionalidades necessárias (cada uma em um arquivo diferente).
 Todas variáveis serão inseridas neste código. O objetivo da apresentação dos assentos será fazer apresentação de 5 colunas, sendo a mediana vazia para simular o corredor. (a lógica é: index começa em zero, portanto as duas primeiras colunas da esquerda sempre serão ímpares, então se "index % 2 !=0, imprimir o corredor") a letra "O" significará assento livre, enquanto a letra "X" significará assento ocupado.
@@ -93,3 +93,45 @@ O programa deve OBRIGATORIAMENTE apresentar 30% dos assentos já ocupados, sendo
 A primeira versão do programa selecionará os assentos ocupados de forma fixa, para evitar desperdício de tempo em assets detalhistas.
 
 ![Primeira execução do código. Apresentação do ônibus para o usuário](https://user-images.githubusercontent.com/92589087/187013153-30a9bb56-bc5b-41c3-8605-083893a8d717.png)
+## Métodos
+No programa, desenvolve-se dois objetos: Onibus e Usuario. O objetivo é que cada um tenha seu próprio databank para controle tanto do usuário quanto da empresa.
+#Objeto - Onibus
+Aqui, vai ser listado os métodos implementados na classe Onibus e suas utilidades.
+
+
+**getOcupacao()**
+- return ocupacao;
+- serve para acessar o atributo privado ocupacao;
+**setOcupacao(String[] o)**
+- no return;
+- serve para settar todos os valores dentro do array o(ocupacao) em "O", que significa desocupado no nosso código.
+
+
+**ranOcupacao(String[] o)**
+- no return;
+- serve para randomizar assentos ocupados (referenciados por "X" dentro do array);
+- separam os assentos randomizados em 2 grupos, cada um é referenciado em um dos dois arrays que representam o destino do usuário.
+
+
+**getAssentos()** 
+- return assentos;
+- serve para acessar o atributo privado assentos;
+
+**setAssentos(int[] a)**
+- no return;
+- serve para settar todos valores dentro do array a(assentos) de 1 até 46, de forma sequencial e ordenada.
+
+**busVisualizer()**
+- no return;
+- É um método para representar graficamente o ônibus para facilitar o uso do usuário.
+
+**testOcupacao(int i)**
+- return boolean;
+- testa se o assento está ocupado ou não.
+
+**testIndex(int user, int index, String destino){
+##BUGS:
+O que devo resolver:
+- [] método Onibus.procuraPassagem (não retorna valor válido.)
+- [] método Usuario.confirmaUser (viagem termina em NULL, compra-se 0 passagens, valor total = 0.00. Nao aceita valor válido).
+![apresentando as respostas dos bugs](https://user-images.githubusercontent.com/92589087/187582704-420e517b-2bc1-4056-9112-6030acde692b.png)
