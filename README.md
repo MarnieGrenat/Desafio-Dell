@@ -92,6 +92,30 @@ Todas variáveis serão inseridas neste código. O objetivo da apresentação do
 O programa deve OBRIGATORIAMENTE apresentar 30% dos assentos já ocupados, sendo metade desses com destino à Florianópolis e a outra metade para Criciúma.
 A primeira versão do programa selecionará os assentos ocupados de forma fixa, para evitar desperdício de tempo em assets detalhistas.
 
+__Explicando o código Main.java:__
+ - importando bibliotecas java (Scanner e Locale);
+ - criando classes Main / main;
+ - instanciando objetos e variaveis;
+ - settando onibus info: quais assentos, quais são ocupados (de forma randômica);
+ - saudação ao usuário;
+ - primeiro contato com user (Scanner in);
+ - define local inicial(STRING) ("Cidade Inicial" do  OBJ usuario);
+ - checa local inicial (se válido);
+ - testa se local inicial == Criciúma. Caso sim, destino == Florianópolis;
+ - se local inicial != Criciúma, perguntar destino;
+ - define destino(STRING);
+ - checa destino (se válido);
+ - saindo do loop "checa destino", decide tabela usando local (inicial) + destino;
+ - apresenta tabela de horarios, preços e digitos específico do local inicial + destino;
+ - pergunta ao usuario qual horário da viagem;
+ - pergunta ao usuario quantos passageiros; (sempre menor que 15);
+ - apresenta busvisualizer;
+ - pergunta ao usuário quais assentos deseja ocupar;
+ - testa se assentos escolhidos já estão ocupados ou se são válidos;
+ - se nenhum problema, setta assentos escolhidos como assentos ocupados; (fazer ainda);
+ - apresenta info sobre a compra ao usuário e pede confirmação;
+ - se sim, retorna true, se não, retorna false e (deve) reinicializar a operação.
+
 ![Primeira execução do código. Apresentação do ônibus para o usuário](https://user-images.githubusercontent.com/92589087/187013153-30a9bb56-bc5b-41c3-8605-083893a8d717.png)
 ## Métodos
 No programa, desenvolve-se dois objetos: Onibus e Usuario. O objetivo é que cada um tenha seu próprio databank para controle tanto do usuário quanto da empresa.
@@ -132,6 +156,6 @@ Aqui, vai ser listado os métodos implementados na classe Onibus e suas utilidad
 **testIndex(int user, int index, String destino){
 ##BUGS:
 O que devo resolver:
-- [] método Onibus.procuraPassagem (não retorna valor válido.)
-- [] método Usuario.confirmaUser (viagem termina em NULL, compra-se 0 passagens, valor total = 0.00. Nao aceita valor válido).
+- [ ] método Onibus.procuraPassagem (não retorna valor válido.)
+- [x] método Usuario.confirmaUser (viagem termina em NULL, compra-se 0 passagens, valor total = 0.00. Nao aceita valor válido).
 ![apresentando as respostas dos bugs](https://user-images.githubusercontent.com/92589087/187582704-420e517b-2bc1-4056-9112-6030acde692b.png)
